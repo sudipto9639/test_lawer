@@ -1,0 +1,443 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700&family=Open+Sans:wght@300&display=swap');
+
+/**** header section start**/
+nav{
+    background-color: #f4e9e9;
+}
+nav ul li{
+    color: #204f87;
+    font-family: 'Montserrat', sans-serif;
+    font-size: semi-bold;
+    font-weight: 600;
+    font-size: 16px;
+    padding-left: 28px;
+}
+nav ul li::after{
+    content: '';
+    display: block;
+    width: 0;
+    height: 4px;
+    background: #f15528;
+    transition: width .1s;
+}
+nav ul li:hover::after{
+    width: 100%;
+    transition: width .6s;
+    text-decoration: none;
+ 
+}
+a:hover{
+    text-decoration: none;
+   color:black;
+}
+/***header section end**/
+
+/*** banner section  start**/
+.banner{
+    margin-bottom: 150px;
+}
+.banner-section{
+    
+    background-image:url(../images/banner2.png), url(../images/banner.png);
+        
+    min-height: 700px;
+        
+    background-repeat: no-repeat;
+        
+    position: relative;
+    }
+    .banner-content{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        /* width: 100%; */
+        text-align: center;
+    }
+    .banner-content h1{
+        color: white;
+        font-size: 81px;
+        font-weight: 600;
+    }
+    .banner-section a{
+        position: absolute;
+        bottom: 0;
+        left: 50%;
+        transform: translate(-2px, -78px);
+        font-size: 26px;
+        color: white;
+    }
+/**** banner section end***/
+
+/***Who we are section start***/
+.who-we-are{}
+.heading::before{
+    content: '';
+    display: block;
+    width: 85px;
+    height: 7px;
+    background: #f47838;
+    transition: width .3s;
+    /* margin-bottom: 10px; */
+    border-radius: 59px;
+}
+.heading h1{
+    font-family: 'Montserrat', sans-serif;
+    color: #204f87;
+    font-size: bold;
+    font-weight: 600;
+    margin: 20px 0px 20px 0px;
+}
+.heading p{
+    font-family: 'Open Sans', sans-serif;
+    color:#b0b0b1;
+    font-size: 15px;
+    /* text-align: center; */
+    justify-content: center;
+    padding: 11px 219px 0px 0px;
+}
+/***Who we are section end***/
+.what-we-do-heading{
+
+    text-align: center;
+    
+    margin: 18px 0px 88px 0px;
+    }
+    .what-we-do-heading h1{
+        font-family: 'Montserrat', sans-serif;
+    color: #204f87;
+    font-size: bold;
+    font-weight: 600;
+    }
+    .what-we-do-section{
+    background-color: #f7f8f8;
+    background-image: url(/images/wedobg.png);
+    background-repeat: no-repeat;
+    min-height: 657px;
+    background-size: 1064px 564px;
+    background-position: right bottom;
+    margin-top: 88px;
+    }
+    .we-do-image{
+    position: relative;
+    }
+    .we-do-image a{
+    position: absolute;
+    /* bottom: 0; */
+    top: 83%;
+    left: 42%;
+    font-size: 39px;
+}
+    .we-do-image h4{
+    position: absolute;
+    top: 76%;
+    left: 34%;
+    transform: translate(10px, 10px);
+    }
+    .we-do-image img{
+    width: 100%;
+    height: auto;
+    }
+    /**attorney section***/
+    .attorney{
+        background-image: url(/images/attorneybg.png);
+        background-repeat: no-repeat;
+       
+        height: 1235px;
+    }
+    .attorney img{
+        width: 100%;
+        height: auto;
+    }
+    .attorney-image-1{
+        margin-top: 175px;
+        margin-bottom: 29px;
+    }
+    .attorney-image{}
+    .attorney-content{
+        margin-top: 300px;
+    }
+    .attorney-header{}
+    .attorney-header h2{
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    font-size: bold;
+    font-weight: 600;
+ 
+}
+    .attorney-header p{
+      
+        padding: 11px 121px 0px 0px;
+        font-family: 'Open Sans', sans-serif;
+        color: #01030c;
+        font-size: 15px;
+     
+        justify-content: center;
+    }
+    .attorney-header h4{
+    color: #f15a28;
+}
+    .attorney-header h2::before{
+        content: '';
+        display: block;
+        width: 0;
+        height: 4px;
+        background: #f47838;
+        transition: width .3s;
+    }
+    .attorney-header h2:hover::before{
+        width: 15%;
+        transition: width .3s;
+    }    
+    /*** Languages section start**/
+    .languages{}
+    .language-heading{
+    text-align: center;
+    /* margin-top: 276px; */
+    margin: 276px 0px 82px 0px;
+}
+    .language-heading h2{
+    font-family: 'Montserrat', sans-serif;
+    color: #204f87;
+    font-size: bold;
+    font-weight: 600;
+}
+    .language-content{}
+    .language-content h4{
+    color: #204f87;
+}
+    .language-content p{
+    justify-content: center;
+    padding: 5px 0px 3px 0px;
+    font-family: 'Open Sans', sans-serif;
+    color: #b0b0b1;
+    font-size: 15px;
+}
+    .language-content h5{
+    color: #f15a28;
+}
+     /*** Languages section end**/
+     /*** contact us section start**/
+     .contact-us{
+        min-height: 700px;
+        background-color: #2d3c80;
+        positin: relative;
+      
+        margin-top: 150px;
+     }
+     .contact-header{
+    text-align: center;
+    margin: 100px 0px 67px 0px;
+}
+     .contact-header h2{
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    font-size: bold;
+    font-weight: 600;
+    font-size: 50px;
+}
+     form input{
+        width: 100%;
+        background-color: #ff000000;
+        border: none;
+        border-bottom: 1px solid #8080806b;
+        padding: 10px;
+        margin-bottom: 27px;
+        color: white;
+     }
+     form textarea{
+        width: 100%;
+        background-color: #ff000000;
+        border: none;
+        border-bottom: 1px solid #8080806b;
+        padding: 10px;
+        margin-bottom: 10px;
+        color: white;
+    }
+    .button{
+        width: auto;
+        display: block;
+        margin: auto;
+        margin-bottom: 0;
+        background-color: #f47838;
+        padding: 15px 59px;
+    }
+    textarea:focus, input:focus{
+        outline: none !important;
+        border-bottom: 1px solid #f47838 !important;
+    }
+     .contact-form{
+        width: 50%;
+        margin: auto;
+     }
+     /*** contact us section end**/
+     /*** footer section start**/
+     footer{
+        min-height: 93px;
+        background-color: #02021d;
+    }
+    .copyright{
+        /* width: 30%; */
+        /* float: left; */
+        margin-top: 25px;
+    }
+    .social{
+        
+        color: white;
+    }
+    .social ul{}
+    .social ul li{
+       float: right;
+       text-decoration: none;
+       margin: 22px 20px;
+       font-size: 24px;
+       list-style: none;
+    }
+    .copyright p{
+        color: #2d3c80;
+    }
+     /*** footer section end**/
+     .whoimage{}
+     .whoimage img{}
+@media(max-width:1199px){
+
+}
+@media(max-width:991px){
+    .banner-content h1 {
+        font-size: 55px;
+}
+.heading p {
+    padding: 5px 0px 0px 0px;
+}
+.what-we-do-section {
+    background-size: 900px 534px;
+}
+.what-we-do-heading {
+    margin: 48px 0px 118px 0px;
+}
+.attorney-header p {
+    padding: 11px 44px 0px 0px;
+}
+.language-heading {
+    margin: 77px 0px 56px 0px;
+}
+.contact-header h2 {
+    font-size: 44px;
+}
+.contact-form {
+    width: 86%;
+    margin: auto;
+    
+}
+}
+@media(max-width:767px){
+    .heading h1 {
+        text-align: center;
+    }
+    .heading p {
+        text-align: center;
+    }
+    .heading::before {
+        margin: auto;
+    }
+    .whoimage {
+     
+        text-align: center;
+    }
+    .banner {
+        margin-bottom: 49px;
+    }
+    .we-do-image h4 {
+        top: 64%;
+        left: 29%;
+    }
+    .we-do-image a {
+        top: 76%;
+        left: 40%;
+        font-size: 29px;
+    }
+    .attorney-content {
+        margin-top: 219px;
+    }
+    .attorney-header h2 {
+        font-size: 20px;
+    }
+    .attorney-header p {
+        padding: 11px 0px 0px 0px;
+    }
+    .attorney-header h4 {
+        font-size: 16px;
+    }
+    .attorney {
+        min-height: 700px;
+    }
+    .attorney-content {
+        margin-top: 127px;
+    }
+    .attorney-image-1 {
+        margin-top: 44px;
+        margin-bottom: 31px;
+    }
+    .attorney-header {
+        text-align: center;
+    }
+    .language-content {
+        margin-bottom: 40px;
+    }
+    .contact-header h2 {
+        font-size: 31px;
+    }
+    .copyright {
+        margin-top: 46px;
+    }
+    .copyright p {
+        font-size: 11px;
+    
+        margin-top: 50px;
+
+    }
+    .contact-form {
+        width: 96%;
+        margin: auto;
+        
+    }
+}
+@media(max-width:575px){
+    .heading h1 {
+        margin: 7px 0px 6px 0px;
+        font-size: 25px;
+    }
+    .what-we-do-heading h1 {
+        font-size: 32px;
+    }
+    .we-do-image h4 {
+        top: 68%;
+        left: 35%;
+    }
+    .banner-content h1 {
+        font-size: 31px;
+    }
+    .banner-section {
+       max-height: 500px;
+    }
+    .attorney {
+        height: 989px;
+    }
+    .attorney-content {
+        margin-top: 81px;
+    }
+    .contact-header h2 {
+        font-size: 26px;
+    }
+    .social ul li {
+        margin: 24px 7px;
+    }
+    .contact-header h2 {
+        font-size: 22px;
+    }
+    .contact-form {
+        width: 90%;
+        margin: auto;
+        
+    }
+}
